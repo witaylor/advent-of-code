@@ -15,8 +15,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 ## 🗓 Days
 
 - [Day 01: Calorie Counting](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/dayone)
+- [Day 02: Rock Paper Scissors](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/daytwo)
 
-<!-- - [Day 02: TBD](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/daytwo) -->
 <!-- - [Day 03: TBD](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/daythree) -->
 <!-- - [Day 04: TBD](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/dayfour) -->
 <!-- - [Day 05: TBD](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/dayfive) -->
@@ -42,4 +42,4 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 <!-- - [Day 25: TBD](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/daytwentyfive) -->
 
 [kotlin-badge]: https://img.shields.io/badge/Kotlin-1.8.2-orange
-[stars-earned-badge]: https://shields.io/badge/stars--earned-2/50-yellow
+[stars-earned-badge]: https://shields.io/badge/stars--earned-4/50-yellow
