@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e602041-64c3-4724-aad4-d316375ab49a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/daytwo/DayTwo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/daytwo/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day/daytwo/DayTwoTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day/daytwo/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day02/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day03/Day03.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day03/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day03/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day/day03/Day03Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day/day03/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day/dayone/DayOneTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day/dayone/DayOneTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day/dayone/DayOne.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day/day01/Day01.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day/dayone/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day/day01/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day/daytwo/DayTwo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day/day02/Day02.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day/daytwo/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day/day02/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day/dayone/DayOneTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day/day01/Day01Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day/dayone/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day/day01/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day/daytwo/DayTwoTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day/day02/DayTwoTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/day/daytwo/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day/day02/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,32 +51,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/witaylor/Documents/personal/advent-of-code&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/witaylor/Documents/personal/advent-of-code/src/main/kotlin/day",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/day" />
+      <recent name="$PROJECT_DIR$/src/test/kotlin/day" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="day" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DayTwoTest">
-    <configuration name="DayOneTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Day03Test">
+    <configuration name="Day01Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day.dayone.*" />
+          <option name="PATTERN" value="day.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day.dayone" />
-      <option name="MAIN_CLASS_NAME" value="day.dayone.DayOneTest" />
+      <option name="PACKAGE_NAME" value="day.day01" />
+      <option name="MAIN_CLASS_NAME" value="day.day01.Day01Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day03Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day.day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day.day03" />
+      <option name="MAIN_CLASS_NAME" value="day.day03.Day03Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,12 +122,12 @@
       <module name="advent-of-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day.daytwo.*" />
+          <option name="PATTERN" value="day.day02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day.daytwo" />
-      <option name="MAIN_CLASS_NAME" value="day.daytwo.DayTwoTest" />
+      <option name="MAIN_CLASS_NAME" value="day.day02.DayTwoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,15 +157,17 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Tests" />
+      <item itemvalue="JUnit.Day01Test" />
+      <item itemvalue="JUnit.Day03Test" />
       <item itemvalue="JUnit.DayTwoTest" />
-      <item itemvalue="JUnit.DayOneTest (1)" />
       <item itemvalue="JUnit.DayOneTest" />
       <item itemvalue="Kotlin.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day03Test" />
         <item itemvalue="JUnit.DayTwoTest" />
-        <item itemvalue="JUnit.DayOneTest (1)" />
+        <item itemvalue="JUnit.Day01Test" />
         <item itemvalue="JUnit.DayOneTest" />
       </list>
     </recent_temporary>
@@ -152,7 +182,7 @@
       <updated>1669893759017</updated>
       <workItem from="1669893760669" duration="1698000" />
       <workItem from="1669902566524" duration="2056000" />
-      <workItem from="1669934897080" duration="3314000" />
+      <workItem from="1669934897080" duration="9228000" />
     </task>
     <servers />
   </component>

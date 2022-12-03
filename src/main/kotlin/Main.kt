@@ -1,10 +1,11 @@
 import day.Day
-import day.dayone.DayOne
-import day.daytwo.DayTwo
+import day.day01.Day01
+import day.day02.Day02
+import day.day03.Day03
 import java.io.File
 
-fun main(args: Array<String>) {
-    val days: List<Day> = listOf(DayOne(), DayTwo())
+fun main() {
+    val days: List<Day> = listOf(Day01(), Day02(), Day03())
 
     days.forEach { day ->
         val dayClassName = day.javaClass.toString().split(".").last()
