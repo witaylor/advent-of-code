@@ -18,6 +18,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 02: Rock Paper Scissors](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/day02)
 - [Day 03: Rucksack Reorganization](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/day03)
 - [Day 04: Camp Cleanup](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/day04)
+- [Day 05: Supply Stacks](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/day05)
 
 [kotlin-badge]: https://img.shields.io/badge/Kotlin-1.8.2-orange
-[stars-earned-badge]: https://shields.io/badge/stars--earned-8/50-yellow
+[stars-earned-badge]: https://shields.io/badge/stars--earned-10/50-yellow
