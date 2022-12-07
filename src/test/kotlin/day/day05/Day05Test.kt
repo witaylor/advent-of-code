@@ -1,6 +1,5 @@
 package day.day05
 
-import day.day04.Day04
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import java.io.File

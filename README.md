@@ -19,6 +19,8 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 - [Day 03: Rucksack Reorganization](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/day03)
 - [Day 04: Camp Cleanup](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/day04)
 - [Day 05: Supply Stacks](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/day05)
+- [Day 06: Tuning Trouble](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/day06)
+- [Day 07: No Space Left On Device](https://github.com/witaylor/advent-of-code/tree/main/src/main/kotlin/day/day07)
 
 [kotlin-badge]: https://img.shields.io/badge/Kotlin-1.8.2-orange
-[stars-earned-badge]: https://shields.io/badge/stars--earned-10/50-yellow
+[stars-earned-badge]: https://shields.io/badge/stars--earned-14/50-yellow

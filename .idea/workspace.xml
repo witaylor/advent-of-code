@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e602041-64c3-4724-aad4-d316375ab49a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day05/Day05.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day05/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day05/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day/day05/Day05Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day/day05/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day06/Day06.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day06/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day06/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day07/Day07.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day07/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/day/day07/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/util/StringUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day/day06/Day06Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day/day07/Day07Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/day/day07/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
@@ -18,6 +23,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day/day02/Day02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day/day02/Day02.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day/day03/Day03.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day/day03/Day03.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/day/day04/Day04.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day/day04/Day04.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/day/day05/Day05.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day/day05/Day05.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/day/day01/Day01Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day/day01/Day01Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/day/day02/DayTwoTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day/day02/DayTwoTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/day/day03/Day03Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/day/day03/Day03Test.kt" afterDir="false" />
@@ -56,65 +62,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/witaylor/Documents/personal/advent-of-code/src/main/kotlin/day&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/witaylor/Documents/personal/advent-of-code/src/test/kotlin/day&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/kotlin/day" />
       <recent name="$PROJECT_DIR$/src/test/kotlin/day" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/day" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="day" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
-    <configuration name="Day01Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day.day01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day.day01" />
-      <option name="MAIN_CLASS_NAME" value="day.day01.Day01Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day03Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day.day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day.day03" />
-      <option name="MAIN_CLASS_NAME" value="day.day03.Day03Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day04Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent-of-code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day.day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day.day04" />
-      <option name="MAIN_CLASS_NAME" value="day.day04.Day04Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Day07Test">
     <configuration name="Day05Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
@@ -130,16 +91,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DayTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day06Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent-of-code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day.day02.*" />
+          <option name="PATTERN" value="day.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day.daytwo" />
-      <option name="MAIN_CLASS_NAME" value="day.day02.DayTwoTest" />
+      <option name="PACKAGE_NAME" value="day.day05" />
+      <option name="MAIN_CLASS_NAME" value="day.day05.Day06Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day07Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day.day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day.day05" />
+      <option name="MAIN_CLASS_NAME" value="day.day05.Day07Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,6 +133,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="day in advent-of-code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day.day02 in advent-of-code" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day.day02" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="JetRunConfigurationType">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -169,20 +173,20 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Tests" />
+      <item itemvalue="JUnit.Day06Test" />
+      <item itemvalue="JUnit.Day07Test" />
+      <item itemvalue="JUnit.day in advent-of-code" />
+      <item itemvalue="JUnit.day.day02 in advent-of-code" />
       <item itemvalue="JUnit.Day05Test" />
-      <item itemvalue="JUnit.Day01Test" />
-      <item itemvalue="JUnit.Day03Test" />
-      <item itemvalue="JUnit.Day04Test" />
-      <item itemvalue="JUnit.DayTwoTest" />
       <item itemvalue="Kotlin.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day07Test" />
+        <item itemvalue="JUnit.day in advent-of-code" />
+        <item itemvalue="JUnit.Day06Test" />
+        <item itemvalue="JUnit.day.day02 in advent-of-code" />
         <item itemvalue="JUnit.Day05Test" />
-        <item itemvalue="JUnit.Day04Test" />
-        <item itemvalue="JUnit.Day03Test" />
-        <item itemvalue="JUnit.DayTwoTest" />
-        <item itemvalue="JUnit.Day01Test" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +201,8 @@
       <workItem from="1669893760669" duration="1698000" />
       <workItem from="1669902566524" duration="2056000" />
       <workItem from="1669934897080" duration="14006000" />
+      <workItem from="1670262185803" duration="13572000" />
+      <workItem from="1670436517918" duration="3198000" />
     </task>
     <servers />
   </component>

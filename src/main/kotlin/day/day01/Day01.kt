@@ -1,18 +1,16 @@
 package day.day01
 
 import day.Day
-import java.util.StringJoiner
 
-class Day01: Day() {
+class Day01 : Day() {
     private var calorieTotals: List<Int> = emptyList()
 
-    override fun partOne(inputLines: List<String>): String = getCalorieTotals(inputLines).max().toString()
+    override fun partOne(inputLines: List<String>): Any = getCalorieTotals(inputLines).max()
 
-    override fun partTwo(inputLines: List<String>): String = getCalorieTotals(inputLines)
+    override fun partTwo(inputLines: List<String>): Any = getCalorieTotals(inputLines)
         .sortedDescending()
         .take(3)
         .sum()
-        .toString()
 
     private fun getCalorieTotals(inputLines: List<String>): List<Int> {
         if (calorieTotals.isNotEmpty()) return calorieTotals

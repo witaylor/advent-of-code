@@ -2,9 +2,9 @@ package day.day02
 
 import day.Day
 
-class Day02: Day() {
+class Day02 : Day() {
 
-    override fun partOne(inputLines: List<String>): String = inputLines.sumOf {
+    override fun partOne(inputLines: List<String>) = inputLines.sumOf {
             when (it) {
                 // you lose
                 "A Z" -> 3
@@ -20,23 +20,23 @@ class Day02: Day() {
                 "C X" -> 7
                 else -> 0
             }.toInt()
-        }.toString()
+        }
 
-    override fun partTwo(inputLines: List<String>): String = inputLines.sumOf {
-        when (it) {
-            // you lose
-            "A X" -> 3
-            "B X" -> 1
-            "C X" -> 2
-            // you draw
-            "A Y" -> 4
-            "B Y" -> 5
-            "C Y" -> 6
-            // you win
-            "A Z" -> 8
-            "B Z" -> 9
-            "C Z" -> 7
-            else -> 0
-        }.toInt()
-    }.toString()
+    override fun partTwo(inputLines: List<String>) = inputLines.sumOf {
+            when (it) {
+                // you lose
+                "A X" -> 3
+                "B X" -> 1
+                "C X" -> 2
+                // you draw
+                "A Y" -> 4
+                "B Y" -> 5
+                "C Y" -> 6
+                // you win
+                "A Z" -> 8
+                "B Z" -> 9
+                "C Z" -> 7
+                else -> 0
+            }.toInt()
+        }
 }

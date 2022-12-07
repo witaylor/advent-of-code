@@ -1,8 +1,8 @@
 package day.day05
 
 import day.Day
+import util.isNumber
 import java.util.Stack
-import kotlin.reflect.typeOf
 
 data class Move(
     val quantity: Int,
@@ -17,7 +17,7 @@ data class DayInput(
 
 class Day05 : Day() {
 
-    override fun partOne(inputLines: List<String>): String {
+    override fun partOne(inputLines: List<String>): Any {
         val input = buildInput(inputLines)
 
         input.movements.forEach {
@@ -29,7 +29,7 @@ class Day05 : Day() {
         return formatResult(input.stacks)
     }
 
-    override fun partTwo(inputLines: List<String>): String {
+    override fun partTwo(inputLines: List<String>): Any {
         val input = buildInput(inputLines)
 
         input.movements.forEach {
@@ -67,9 +67,7 @@ class Day05 : Day() {
         return DayInput(
             stacks = stacks,
             movements = split.second.map { move ->
-                val moves = move.split(" ").filter {
-                    it.matches(Regex("^\\d+\\.?\\d*\$"))
-                }.map(String::toInt)
+                val moves = move.split(" ").filter(String::isNumber).map(String::toInt)
 
                 Move(quantity = moves[0], startStack = moves[1] - 1, endStack = moves[2] - 1)
             }
